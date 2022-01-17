@@ -3,9 +3,14 @@
 <body>
 
 <?php
-$leeftijd = 55;
-echo $leeftijd;
-$melkprijs = 0.98;
+$leeftijd=20;
+$mijnleeftijd="Ik ben $leeftijd";
+
+echo $mijnleeftijd;
+
+$melk = "€1,00";
+$melkprijs = "de huidige prijs van een pak melk $melk";
+
 echo $melkprijs;
 ?>
 

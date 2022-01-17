@@ -3,10 +3,9 @@
 <body>
 
 <?php
-$x = true; // of
-$x = false;
+$naam = "Dillon";
 
-echo $x
+echo $naam;
 ?>
 
 </body>

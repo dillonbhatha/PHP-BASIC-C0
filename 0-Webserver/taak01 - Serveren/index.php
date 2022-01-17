@@ -74,5 +74,10 @@ echo $item;
 $voornaam = "Tom";
 var_dump($voornaam);
 
+//Array viarabele
+$myMovies = array(" Spiderman", " Batman", " The Joker");
 
+echo $myMovies[0];
+echo $myMovies[1];
+echo $myMovies[2];
 ?>

@@ -3,11 +3,10 @@
 <body>
 
 <?php
-$x = true; // of
-$x = false;
+$voornaam = "Tom";
 
-echo $x
+var_dump($voornaam);
 ?>
 
 </body>
-</html> 
+</html>
