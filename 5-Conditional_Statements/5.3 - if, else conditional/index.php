@@ -1,39 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-
 <?php
-$test1 = 10;
-$test2 = 6;
 
+$test1 = 3;
+$test2 = 6;
+    
 if($test1 == $test2) {
     echo "gelijk";
 }
+else {
+    echo "niet gelijk";
+}
 
 if($test1 != $test2) {
-    echo "ongelijk";
+    echo "gelijk";
+}
+else {
+    echo "niet gelijk";
 }
 
 if($test1 === $test2) {
-    echo "identiek";
+    echo "gelijk";
+}
+else {
+    echo "niet gelijk";
 }
 
 if($test1 > $test2) {
-    echo "groter";
+    echo "gelijk";
+}
+else {
+    echo "niet gelijk";
 }
 
 if($test1 < $test2) {
-    echo "kleiner";
+    echo "gelijk";
 }
-
-if($test1 >= $test2) {
-    echo "groter of gelijk aan";
+else {
+    echo "niet gelijk";
 }
 
 if($test1 <= $test2) {
-    echo "kleiner of gelijk aan";
+    echo "gelijk";
 }
-?>
+else {
+    echo "niet gelijk";
+}
 
+if($test1 >= $test2) {
+    echo "gelijk";
+}
+else {
+    echo "niet gelijk";
+}
+
+?>
 </body>
 </html>
