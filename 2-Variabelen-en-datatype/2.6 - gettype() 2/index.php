@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 //string
-$stringy = 1.249;
-var_dump($stringy);
+$string = 1.249;
+echo gettype($string);
+echo '<br>';
 
 //float
 $float = 1.234;
-var_dump($float);
+echo gettype($float);
+echo '<br>';
 
 //boolean
 $true = true;
 $false = false;
+echo gettype($true);
+echo '<br>';
 
 //null
 $null = "Hello world!";
 $null = null;
-var_dump($null);
+echo gettype($null);
 ?>
-
-</body>
-</html>
