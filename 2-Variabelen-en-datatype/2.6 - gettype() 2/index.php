@@ -9,6 +9,11 @@ $float = 1.234;
 echo gettype($float);
 echo '<br>';
 
+//float
+$float = 1.234;
+echo gettype($float);
+echo '<br>';
+
 //boolean
 $true = true;
 $false = false;
